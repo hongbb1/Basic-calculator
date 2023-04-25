@@ -93,11 +93,11 @@ try:
     float(h)
 except:
     print("use arabic numbers!")
-    exit("restart programme")
+    sys.exit("restart programme")
 else:
     i=float(h)
 #testing if the input is a number if not let them know
-      
+p=i      
 o=i
 n=1
 #saving variables n and o as i for other codes
@@ -140,6 +140,7 @@ for k in range(1000):
                     j=float(input("number:"))
                     calculate(j)
                     b=i
+            
         else:
             try:
                 float(m)
